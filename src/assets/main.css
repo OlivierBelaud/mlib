@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-base text-black font-medium;
+    background: linear-gradient(0deg, #FBF9F7 0%, #FBF9F7 100%), #FFF;
+  }
+}
+
+.tablink.router-link-exact-active {
+  @apply text-link border-link;
+}
